@@ -1,0 +1,116 @@
+/*
+font-family: 'Krona One', sans-serif;
+font-family: 'Reenie Beanie', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Covered By Your Grace', cursive;
+*/
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(110deg, #eeeeee 50%, #e0dede 50%);
+    font-family: 'Roboto', sans-serif;
+}
+.players{
+    width:100wh;
+    text-align: center;
+}
+.player{
+    width:300px;
+    height:600px;
+    margin:60px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color:#eeeeee;
+    border: 2px solid #f21170;
+    display: inline-block;
+}
+.name{
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 35px;
+    margin: 0;
+    background-color: #f21170;
+}
+.nm{
+    font-family: 'Krona One', sans-serif;
+    font-size:150px;
+    margin:50px 0;
+    color: #e0dede;
+}
+.info{
+    text-align: left;
+    background: linear-gradient(110deg, #f21170 55%, #b5004c 55%);
+    height:195px;
+}
+.info>h2{
+    margin:10px 30px 0px 30px;
+    font-size:30px;
+    width: 85px;
+    height: 34px;
+    font-family: 'Reenie Beanie', cursive;
+    box-sizing: border-box;
+    text-align: center;
+}
+.stat>a{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Covered By Your Grace', cursive;
+}
+.stat>a:hover{
+    color:#b5004c;
+}
+.poz{
+    display: inline-block;
+}
+.wiek{
+    display: inline-block;
+}
+.wzrost{
+    display: inline-block;
+}
+.waga{
+    display: inline-block;
+}
+.stat{
+    margin:15px 0;
+}
+.kanadyjka{
+    float:right;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 60px;
+    right:0;
+    margin: 0 40px;
+    border: 2px solid #e0dede;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e0dede;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px 10px #8a6574;
+}
+.icon-back{
+    color:#f21170;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: -2px;
+}
+.kanadyjka>a{
+    display: block;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    margin:8px auto;
+    border-radius: 50%;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #eeeeee;
+}
+::-webkit-scrollbar-thumb {
+    background: #f21170;
+}
