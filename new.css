@@ -1,15 +1,41 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,#393e46,#f21170);
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right,#393e46,#f21170);
     text-align: center;
 }
+@media (max-width: 1300px) {
+    body{
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .tab{
+        width: 1200px; 
+    }
+    .players{
+        margin-left: 20px;
+        margin-top:30px;
+    }
+
+}
+@media (min-width:1300px){
+    body{
+        overflow: hidden;
+    }
+    .tab{
+        width: 1200px; 
+    }
+    .players{
+        position: absolute;
+        bottom: 50px;
+        right:50px;;
+    }
+}
 .tab{
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
+    margin-top: 100px;
     box-shadow: 0px 0px 40px 10px rgba(0,0,0,.8);
 }
 table{
@@ -55,9 +81,6 @@ tr{
     margin-right: auto;
 }
 .players{
-    position: absolute;
-    bottom: 50px;
-    right:50px;
     border: 2px solid #e0dede;
     width: 60px;
     height: 60px;
