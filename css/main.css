@@ -32,6 +32,6 @@ header>div{
     flex-wrap: wrap;  
 }
 a[href^="tel"] {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff!important;
+    text-decoration: none!important;
 }

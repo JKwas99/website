@@ -445,4 +445,8 @@
     ::-webkit-scrollbar-thumb {
         background: #d41520;
     }
+    a[href^="tel"] {
+        color: #ffffff!important;
+        text-decoration: none!important;
+    }
 }
